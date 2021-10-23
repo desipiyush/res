@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&display=swap');
+
+* {
+    box-sizing : border-box;
+    font-family: 'Arvo', sans-serif;
+    z-index    : 0;
+}
+
+button {
+    border       : none;
+    padding      : 6px;
+    cursor       : pointer;
+    border-radius: 40px;
+}
+
+body {
+    background-color: #3c2846;
+}
+
+.kk {
+    position: absolute;
+    top     : 40%;
+    left    : 40%;
+}
+
+.circle {
+    position     : absolute;
+    height       : 80px;
+    width        : 80px;
+    background   : red;
+    border-radius: 50%;
+    margin       : 10px;
+    transition   : .5s;
+    z-index      : 1;
+}
+
+.border {
+    height       : 100px;
+    width        : 200px;
+    border       : 1px solid blue;
+    border-radius: 50px;
+    position     : absolute;
+}
+
+.s {
+    display: none;
+}
+
+.p {
+    position: absolute;
+    top     : 30%;
+}
+
+.v {
+    display: none;
+}
+
+.b {
+
+    border: 2px solid green;
+}
+
+.c {
+    background: blue;
+}
+
+.active {
+    background : green;
+    margin-left: 110px;
+}
